@@ -2,7 +2,7 @@ const http = require("http");
 const https = require("https");
 const debug = require("debug-logger")("srv");
 var fs = require("fs");
-var io = require('socket.io')(9700);
+var io = require('socket.io')(process.env.PORT);
 var id = 0;
 
 var connectedOrigins = [];
