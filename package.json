@@ -4,7 +4,7 @@
   "description": "Minimap & Chat Socket for UI Client",
   "main": "socket.js",
   "scripts": {
-    "test": "node socket"
+    "start": "node socket"
   },
   "repository": {
     "type": "git",
