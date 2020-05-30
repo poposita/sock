@@ -1,0 +1,19 @@
+{
+  "name": "socket",
+  "version": "1.9.3",
+  "description": "Minimap & Chat Socket for UI Client",
+  "main": "socket.js",
+  "scripts": {
+    "test": "node socket.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/UI-Client/"
+  },
+  "author": "xAz",
+  "license": "ISC",
+  "dependencies": {
+    "debug-logger": "latest",
+    "socket.io": "latest"
+  }
+}
